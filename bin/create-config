@@ -51,6 +51,7 @@ function createConfig() {
       options: {
         service: "SendInBlue",
         port: 587,
+        host: "smtp-relay.sendinblue.com",
         auth: {
           user: process.env.SMTP_LOGIN,
           pass: process.env.SMTP_PASSWORD,
